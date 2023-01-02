@@ -12,7 +12,7 @@ cat <> blank.txt
 cat <> test.txt
 
 # 1-4
-ls | xargs chmod 755
+ls | xargs chmod 615
 echo "# subdir内のファイル"
 ls -l
 
