@@ -4,9 +4,11 @@
 echo "シェルスクリプトを勉強しています"
 
 # 1-2
+# -pでディレクトリがなければ再起的に作成
 mkdir -p day07/mydir/subdir
 
 # 1-3
+# cat <> とすることで、ファイルがある場合はファイルの中身を表示、ない場合は書き出しに備えて作成
 cd day07/mydir/subdir
 cat <> blank.txt
 cat <> test.txt
@@ -27,6 +29,7 @@ for i in {1..5}; do
 done
 
 # 1-7
+# -pでパーミッションや更新日時等含めコピー
 cp -p hello.txt hello.txt.copy
 
 # 1-8
